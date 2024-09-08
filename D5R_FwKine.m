@@ -9,8 +9,8 @@ l3 = 17.25;
 l4 = 28;
 l5 = 18.1;
 
-px = (l3+l5) * sind(r1) + p3 * cosd(r1) + p2 * sind(r1);
-py = -(l3+l5) * cosd(r1) + p3 * sind(r1) - p2 * cosd(r1);
+px = (l3+l5) .* sind(r1) + p3 .* cosd(r1) + p2 .* sind(r1);
+py = -(l3+l5) .* cosd(r1) + p3 .* sind(r1) - p2 .* cosd(r1);
 pz = -p4 - (l1+l2+l4);
 ry = r1;
 rz = r5;
